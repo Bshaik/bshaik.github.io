@@ -1,0 +1,221 @@
+{
+  "summary": {
+    "des1": "Technology professional with ",
+    "des2": " + years of IT experience specializing in both manual and automated software testing. Proven expertise in in building frameworks, automating manual processes, optimizing testing processes, leading cross-functional teams, and ensuring high-quality software delivery across various platforms. Recognized for improving testing efficiency and reducing product release times through innovative automation strategies. Don't settle for average, let's transform test automation from ordinary to extraordinary!"
+  },
+  "short_intro": [
+    {
+      "intro": "Area of expertise:",
+      "details": [
+        "<strong> Mobile Applications </strong> - Led automation efforts for mobile testing, reducing test cycle time by 50% and increasing test coverage by 30%.",
+        "<strong>Web Applications</strong> - Automated 80% of repetitive test cases for desktop applications, decreasing manual testing effort by ~45%. Improved web application testing efficiency by 40% through the implementation of CI/CD pipelines and automated testing tools",
+        "<strong>Web Services (API) </strong> - Achieved a 60% reduction in API testing time by leveraging tools like Postman and Rest Assured",
+        "<strong>CI/CD pipelines</strong> - Automating different manual processes according to stakeholder’s business goals, covering a wide area of E2E QA process and flows from desktop applications to mobile, web applications, APIs, protocols, database - all running in continuous integration environment(s)",
+        "Building test automation frameworks from scratch in an Agile way (java, python) -> identify significant aspects of client requirements that drive the framework architecture",
+        "Provide test automation consultancy, mentoring team members",
+        "Identify potential problems in advance and work with the teams to resolve them",
+        "Research on artificial inteligence & data analytics (<a href='https://numpy.org/' target=\"_blank\">numpy</a>)"
+      ]
+    },
+    {
+      "intro": "I am also involved in <strong>effort estimations</strong>, <strong>roadmaps</strong>, <strong>backlog creation/refinement</strong> and <strong>ROI calculation</strong>."
+    },
+    {
+      "intro": "I hold a bachelor’s degree in Engineering, PGP program in AI & ML, and obtained couple of tools specific certification(s)"
+    }
+  ],
+  "work": [
+    {
+      "name": "Qualcomm (Intertek)",
+      "location": "Hyderabad",
+      "position": "Test Lead",
+      "url": "https://www.intertek.com/",
+      "logo": "work/intertek-logo.png",
+      "startDate": "2008",
+      "startMonth": "FEB",
+      "summary": "Starting my career as a QA Engineer in testing Mobile applications on all <a href='https://www.qualcomm.com/' target=\"_blank\"><strong>Qualcomm</strong></a> CDMA chipsets and then as a Test Lead. <br> <br> Here I've learned how to Design, Develops and execute Tests including common and uncommon use cases, how to do performance testing, stress and stability testing, in order to certify the applications is according to the <a href=https://www.intertek.com/software/apps/qualcomm-true-brew/ target=\"_blank\"><strong>TRUE BREW Testing</strong></a> Standards.<br> <br> Involved in creation of Test Plan. <br> <br> Introduced the automation <a href='https://www.selenium.dev/' target=\"_blank\"><strong> Selenium </strong></a>"
+    },
+    {
+      "name": "Prolifics",
+      "location": "Hyderabad",
+      "position": "Test Lead",
+      "url": "https://prolifics.com/us/india",
+      "logo": "work/prolifics-logo.png",
+      "startDate": "2015",
+      "startMonth": "JUN",
+      "summary": "Here I started to work intensively with Selenium, Appium, Java language to implement the automation framework for testing Web & Mobile (<strong> Android</strong> and <strong>iOS </strong>devices) Applications for VMware customers."
+    },
+    {
+      "name": "RealPage",
+      "location": "Hyderabad",
+      "position": "QA Engineer Architect",
+      "url": "https://www.realpage.com/",
+      "logo": "work/realpage-logo.png",
+      "startDate": "2015",
+      "startMonth": "Nov",
+      "summary": "Here I joined the CoE Automation team, where I initially led efforts in automating and managing multiple mobile products simultaneously. Later, I expanded my focus to include API and web application automation based on product requirements. <br> <br> Within the organization, several products approached the CoE team seeking solutions to introduce automation testing to accelerate their development and deployment cycles. <br> <br>I served as a key point of contact, taking responsibility for understanding their requirements, conducting analysis, performing POCs, and providing the most suitable solutions based on industry best practices. <br> <br>As part of my role, I also coached team members, solved work-related challenges, and conducted internal training sessions, primarily focused on automation."
+    },
+    {
+      "name": "Colruyt ",
+      "location": "Hyderabad",
+      "position": "Senior Test Manager",
+      "url": "https://www.colruytgroup.com/en",
+      "logo": "work/colruyt-logo.png",
+      "startDate": "2020",
+      "startMonth": "AUG",
+      "summary": "As a <strong>Senior Test Manager</strong>, I am responsible for hiring, training, and staff development across both onshore and offshore teams. I successfully established the CoE Automation team as a service within the organization and created a streamlined intake and delivery process that involves in conducting extensive R&D and proof-of-concept (POC) evaluations.<br> <br>In parallel, I served as the <strong>SME - Subject Matter Expert</strong> for the <strong>VAK</strong> team (<em>vaardigheden, attitude en kennis</em> in Dutch, meaning <em>Skills, Attitude, and Knowledge</em> in English), where I provided strategic direction on automation practices. My focus included tool harmonization across the organization, enhancing documentation, reviewing and recommending improvements for test reporting and automation processes, and optimizing test execution strategies"
+    },
+    {
+      "name": "Signant Health",
+      "location": "Hyderabad",
+      "position": "Test Automation Architect",
+      "url": "https://www.signanthealth.com/",
+      "logo": "work/sh-logo.png",
+      "startDate": "2022",
+      "startMonth": "JAN",
+      "summary": "I joined Signant Health to continue my journey as a Test Automation Architect in a different and exciting industry/domain. <br> <br> Here, I am contributing to the automation of web and mobile applications to accelerate the organization’s development and deployment processes. After conducting a thorough analysis, I designed and delivered a customized framework that seamlessly integrates with their existing systems, supporting multiple projects across the organization."
+    },
+    {
+      "name": "WebPT",
+      "location": "Hyderabad",
+      "position": "Senior Principal Engineer",
+      "url": "https://www.webpt.com/",
+      "logo": "work/webpt-logo.png",
+      "startDate": "2023",
+      "startMonth": "MAR",
+      "summary": "To continue my career path as a <strong>Senior Principal Engineer</strong>, I joined WebPT, a web-based EMR (<em>Electronic Medical Record</em>) and end-to-end Practice Experience Management (PXM) platform tailored specifically for rehab therapy professionals. <br> <br> At WebPT, I contribute to the automation of web and mobile applications to accelerate development and deployment processes. After conducting a thorough analysis, designed and delivered a customized framework that supports web-based, API, and mobile application testing. This framework seamlessly integrates with the existing systems and serves multiple projects across the organization.<br> <br> I also contribute to the implementation of best practices and processes for both manual and automation testing. By collecting and analyzing metrics, I drive continuous improvements in QA processes, enhancing overall efficiency and quality.<br> <br> Additionally, I am responsible for QA team (Manual/Automation) hiring, training, and staff development for the offshore team, ensuring continuous growth and excellence within the team.",
+      "achievemnts": [
+        "Build Analytics Dashboard (Reportportal): Analyze legacy test results in real time, give us a high level overview of the tests passed, duration, clustering of defects, where we can start fixing problems with big impact, capability of comparing runs, identify flaky tests",
+        "CI/CD pipeline: Implemented a CI/CD pipeline to automate the deployment process by integrating test script execution with each deployment. This approach ensures that any issues or changes in the code are tracked and addressed promptly, improving overall code quality and deployment efficiency.",
+        "Defect Prevention: Introduced Chrome Beta test execution as part of the defect prevention strategy to ensure that no new issues arise due to browser upgrades. ",
+        "Fast Feedback on Automation Tests: Reduced test execution duration by over 75% compared to sequential execution through the implementation of parallel test execution.",
+        "Scripts Reliability: Ensured continuous monitoring and maintenance of a pass percentage exceeding 95% for automated tests, reinforcing the reliability of the test suite.",
+        "Upskilling: Successfully trained approximately 8 team members in test automation, equipping them with the necessary skills and deploying them on live projects to enhance team capabilities and project outcomes."
+      ]
+    }
+  ],
+  "knows": [
+    "Python",
+    "Java",
+    "PHP",
+    "docker",
+    "docker-compose",
+    "selenium",
+    "CI/CD",
+    "Jenkins",
+    "Model Based Testing",
+    "Git",
+    "Scrum",
+    "Quality Assurance",
+    "Test Planning",
+    "Test Management",
+    "SQL Server",
+    "Test Strategies",
+    "Test Cases",
+    "Test policy",
+    "Jira",
+    "TestNG",
+    "Cucumber",
+    "Selenide",
+    "Eclipse",
+    "JDBC",
+    "Coding Standards",
+    "Coaching",
+    "BDD",
+    "Test Automation Frameworks",
+    "WebDriver",
+    "Mind Mapping",
+    "Identifying Patterns or Connections",
+    "Problem Solving",
+    "Creativity",
+    "Communication",
+    "Teamwork",
+    "Self-Taught",
+    "Numpy",
+    "Plotly",
+    "Contract Testing",
+    "Appium",
+    "SeeTest",
+    "Perfecto",
+    "REST Assured",
+    "Postman",
+    "Advanced REST Client",
+    "Apiary",
+    "SOAPUI",
+    "Katalon Studio",
+    "Cypress",
+    "Robot Framework", 
+    "Karate Framework",
+    "Page Object Model",
+    "TestNG",
+    "Keyword Driven",
+    "Android Studio",
+    "Xcode",
+    "Eclipse",
+    "VS Code",
+    "PyCharm",
+    "PhpStorm",
+    "Jupyter Notebook",
+    "TeamCity",
+    "Jenkins",
+    "GitLab",
+    "UiPath",
+    "Automation Anywhere",
+    "BrowserStack",
+    "SauceLabs",
+    "Sikuli",
+    "AutoIt",
+    "Maven",
+    "Data Analysis",
+    "Decision Analytics",
+    "Predictive Modeling",
+    "Machine Learning Algorithms"
+  ],
+  "certifications": [
+    {
+      "img": "/images/certificates/AIML_PGP.png",
+      "description": "Acheived Post Graduate Program in Artificial Intelligence & Machine Learning"
+    },
+    {
+      "img": "/images/certificates/aws-technical-essentials.jpg",
+      "description": "This course provides AWS Partners with fundamental, technical knowledge of AWS cloud computing, global infrastructure, services, common solutions, migration, security, and compliance."
+    },
+    {
+      "img": "/images/certificates/73086_SFC_Shaik Babu.jpg",
+      "description": "Learn about key concepts in Scrum as defined in the SBOK® Guide and to get a basic understanding of how Scrum framework works in delivering successful projects."
+    },
+    {
+      "img": "/images/certificates/shaikPMP.png",
+      "description": "Completed the PMP Exam Prep course and obtained 35 PDU hours"
+    },
+    {
+      "img": "/images/certificates/CCUIpath.png",
+      "description": "Completed the course UiPath-Robotic Process Automation"
+    },
+    {
+      "img": "/images/certificates/uipathLevel1.png",
+      "description": "UiPath - Diploma of Completion in Foundation Training"
+    },
+    {
+      "img": "/images/certificates/uipathLevel2.png",
+      "description": "UiPath - Diploma of Completion in Orchestrator Training"
+    },
+    {
+      "img": "/images/certificates/uipathLevel3.png",
+      "description": "Diploma of Completion in UiPath Advanced Training"
+    },
+    {
+      "img": "/images/certificates/uipathRPAdev.png",
+      "description": "Certified UiPath RPA Developer"
+    },
+    {
+      "img": "/images/certificates/AutomationAnywhere.png",
+      "description": "Certified Automation Anywhere RPA Professional"
+    },
+    {
+      "img": "/images/certificates/seetest.png",
+      "description": "One of the leading Mobile Automation tools in the industry that supports both iOS and Android applications."
+    }
+    
+  ]
+}

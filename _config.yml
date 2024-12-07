@@ -1,0 +1,49 @@
+# Site settings
+title: Shaik Babu
+description: 'Webfolio'
+url: 'https://bshaik.github.io'
+baseurl: ''
+# google_analytics: 'UA-XXXXXX-X'
+disqus_shortname: 'Shaik'
+# disable_landing_page: trues
+livereload: true
+
+author:
+  name: 'Shaik Babu'
+  email: shaik2k12@yahoo.com
+  github_username:  bshaik
+  linkedin_username:  shaik-babu
+  stackoverflow_username: 4757683/shaik
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+          # https://jekyllrb.com/docs/static-files/
+  - scope:
+      path: "assets/html"
+    values:
+      html: true
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+plugins: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']

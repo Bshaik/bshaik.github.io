@@ -1,0 +1,18 @@
+<footer class="footer">
+   <span class="footer__copyright">&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. All rights reserved. | <a href='/cookies'>Cookies</a></span>
+</footer>
+
+<script type="text/javascript" src="{{ site.baseurl }}/js/main.js?{{site.time | date: '%s%N'}}"></script>
+{% if jekyll.environment != "development" %}
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C3W43H05GJ"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-C3W43H05GJ');
+</script>
+
+{% endif %}

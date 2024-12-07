@@ -1,0 +1,78 @@
+--- 
+layout: page 
+
+--- 
+
+
+
+<link rel="stylesheet" href="{{site.baseurl }}/css/profile.css">
+
+
+<h2 style="color: rgb(15, 199, 240);"><strong>Summary</strong></h2>
+<div class="summary">
+     
+    {% assign firstLetter = site.data.profile.summary["des1"] | slice:0 %}
+    {% assign summarydescription = site.data.profile.summary["des1"] | slice: 1, site.data.profile.summary["des1"].size %}
+    {% assign years = site.time | date: '%Y' | minus :2008 %}
+    <p>
+        <span class="first-letter" style="color: rgb(15, 199, 240);">{{ firstLetter }}</span>{{summarydescription }} <strong>{{years}}</strong> {{site.data.profile.summary["des2"]}}
+    </p>
+        
+
+    <p></p>
+    {% for sum in site.data.profile.short_intro %}    
+        {% assign firstLetter = sum["intro"] | slice: 0  %}
+        {% assign intro = sum["intro"] | slice: 1, sum["intro"].size  %}
+        <p>
+            <span class="first-letter" style="color: rgb(15, 199, 240);">{{ firstLetter }}</span> {{ intro }}
+            {% if sum["details"] %}
+            <ul>
+                {% for detail in sum["details"] %} 
+                <li>{{ detail }}</li>
+                {% endfor %}
+            </ul>
+            {% endif %}
+        </p>
+    {% endfor %}
+</div>
+
+{% include timeline-article.html %}
+
+
+<h3 style="color: rgb(15, 199, 240);"><strong>Skills & Technologies</strong></h3>
+{% include tagcloud.html %}
+<div class="tagcloud">
+    <ul>
+        {% for know in site.data.profile.knows %}
+        <li>{{know }}</li>
+        {% endfor %}
+    </ul>
+</div>
+
+<h3 style="color: rgb(15, 199, 240);"><strong>Certifications</strong></h3>
+<section class="post">
+    <table class="table">
+        <thead>
+            <tr>
+              <th scope="col">Certificate</th>              
+              <th scope="col">Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% assign certifications = site.data.profile.certifications  %}
+            {% for certificate in certifications %}
+            <tr>
+                <td>
+                    <img style="vertical-align:middle" src="{{ site.baseurl }}{{ certificate['img'] }}" width="50%" height="50%">
+                </td>
+                <td>
+                    <div class="timeline-article"><p>{{certificate["description"] }}</p></div>
+                </td>                
+            </tr>
+            {% endfor %}
+          </tbody>
+    </table>
+</section>
+
+<h3 style="color: rgb(15, 199, 240);"><strong>To know more:</strong></h3>
+<blockquote>Checkout my contact details @ <a href='https://www.linkedin.com/in/{{ site.author.linkedin_username }}' target=\"_blank\">Shaik LinkedIn</a> - I am sure you will find them !</blockquote>
